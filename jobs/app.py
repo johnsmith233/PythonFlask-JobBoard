@@ -33,3 +33,5 @@ def close_connection(exception):
 @app.route('/jobs')
 def jobs():
     return render_template('index.html')
+
+    
